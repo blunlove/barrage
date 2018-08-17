@@ -1,0 +1,41 @@
+.main {
+  margin: 20px;
+  text-align: center;
+}
+.main > div + div {
+  margin-top: 10px;
+}
+.main-board {
+  position: relative;
+  height: 300px;
+  border: solid lightskyblue 1px;
+  overflow: hidden;
+}
+.main-board-barrage {
+  position: absolute;
+}
+.main-barrage > input {
+  padding: 5px;
+}
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+.main-button > div {
+  margin: 0 50px;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  color: #ccc;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.main-button > div:hover {
+  cursor: pointer;
+  color: #e49260;
+}
+textarea {
+  width: 400px;
+  height: 300px;
+  font-size: 12px;
+}
